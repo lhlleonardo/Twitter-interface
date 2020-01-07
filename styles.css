@@ -75,7 +75,7 @@ header#main-header div.side {
 header#main-header div.side input {
     width: 220px;
 
-    background: #f5f8fa url('/images/search.svg') no-repeat 190px center;
+    background: #f5f8fa url('/images/search.svg') no-repeat 185px center;
 
     border: solid 1px #E6ECF0;
     height: 34px;
@@ -123,4 +123,8 @@ div.banner {
 
 div.banner h2 {
     font-size: 15px;
+}
+
+div.bar {
+    
 }
