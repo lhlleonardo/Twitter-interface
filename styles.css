@@ -310,3 +310,111 @@ div.wrapper-content aside.profile .images ul li {
     margin-right: 5px;
     margin: 0 5px 5px 0;
 }
+
+div.wrapper-content .timeline {
+    flex: 1;
+}
+
+div.wrapper-content aside.widgets {
+    width: 290px;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widgets {
+    background: #fff;
+    padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widgets .tittle {
+    display: flex;
+    align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widgets .tittle strong {
+    font-size: 18px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widgets .tittle a {
+    color: #3bb9e3;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widgets .tittle a::before {
+    content: '';
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #222;
+    position: absolute;
+    left: 4px;
+    top: 6px;
+}
+
+div.wrapper-content aside.widgets .fallow ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .fallow ul li {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #ccccdd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .fallow ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0ch;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile {
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile img {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile strong {
+    font-size: 14px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile strong span {
+    font-weight: normal;
+    color: #9a9a9a;
+}
+
+div.wrapper-content aside.widgets .fallow ul li .profile .info button {
+    height: 27px;
+    background: #fff;
+    margin-top: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3bb9e3;
+    border: 1px solid #3bb9e3;
+    border-radius: 16px;
+}
+
